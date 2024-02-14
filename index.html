@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes bounce {
+            0%{
+                transform: scale(.8);
+            }
+            50%{
+                transform: scale(1.1);
+            }
+            100%{
+                transform: scale(.8);
+            }
+        }
+        .heart{
+            text-align: center;
+            animation-name: bounce;
+            animation-duration: .8s;
+            animation-iteration-count: infinite;
+            animation-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+            animation-fill-mode: backwards;
+        }
+
+    </style>
+</head>
+<body  style="text-align: center;">
+    <img src="https://www.bluepearl.co.in/wp-content/uploads/2020/03/logo_latest.png" width="30%" alt="Blue Pearl Computer Education">
+    <div class="outer">
+        <img src="heart.png" alt="" class="heart">
+        <h2 >Welcome to Blue Pearl Computer Education</h2>
+        Learn Full stack web development.
+        thank you all
+    </div>
+</body>
+</html>
